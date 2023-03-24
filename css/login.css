@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #2c3e50;
+   
+}
+a{
+    text-decoration: none;
+}
+.container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 550px;
+    margin: 4px auto;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    background: #34495e;
+    
+}
+.container p{
+    margin: 10px 0;
+    margin-bottom: 25px;
+}
+.header img{
+    display: block;
+    width: 75px;
+    height: 65px;
+}
+.header{
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header a{
+    color: wheat;
+}
+label{
+    margin-top: 19px;
+    font-size: 14px;
+}
+input,label{
+    display: block;
+}
+.wrap{
+    width: 70%;
+    margin: auto;
+}
+.wrap label{
+    text-align: left;
+}
+
+input{
+    width: 100%;
+    padding: 6.5px;
+    margin: 13px auto;
+    outline: none;
+}
+
+.btn{
+    width: 70%;
+    padding: 8px 0;
+    margin: 20px;
+    border: none;
+    background: #3498db;
+    color: wheat;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn:hover{
+    cursor: pointer;
+    background: #3498dbe7;
+}
+.reg-text{
+    font-size: 13px;
+    text-align: left;
+    color: thistle;
+}
+.reg-text span a{
+    color: rgba(230, 215, 148, 0.904);
+}
+.reg-text a:hover{
+    cursor: pointer;
+}
+.flag-text{
+    font-size: 13px;
+}
+.green{
+    color: green;
+}
+.error{
+    border: 1px solid red;
+    background-color: rgba(255, 0, 0, 0.158);
+}
+.red{
+    color: rgb(255, 80, 80);
+    text-align: center;
+}
+.message{
+    text-align: center;
+    color: royalblue;
+    border:1px solid royalblue;
+    width: 33%;
+    margin: 0 auto;
+    padding: 8px 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    background-color: rgba(28, 37, 46, 0.301);
+    font-weight: bold;
+}
+
+
+
+@media screen and (max-width:768px){
+    
+    .container{
+        width: 90%;
+    }
+}
